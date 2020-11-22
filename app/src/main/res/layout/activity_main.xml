@@ -27,7 +27,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
-                    android:id="@+id/management_system"
+                    android:id="@+id/academic_gate"
                     android:layout_margin="5dp"
                     android:layout_height="match_parent"
                     android:layout_weight="1">
@@ -43,8 +43,8 @@
                             android:gravity="center"
                             android:layout_gravity="center"
                             android:padding="10dp"
-                            android:text="نظام ادارة التعلم"
-                            android:textSize="18sp"
+                            android:text="البوابة\nالاكاديمية"
+                            android:textSize="16sp"
                             android:textStyle="bold" />
 
 
@@ -78,7 +78,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
-                    android:id="@+id/email"
+                    android:id="@+id/support"
                     android:layout_width="0dp"
                     android:layout_margin="5dp"
                     android:layout_height="match_parent"
@@ -95,7 +95,7 @@
                             android:gravity="center"
                             android:layout_gravity="center"
                             android:padding="10dp"
-                            android:text="الايميل"
+                            android:text="الدعم الفني"
                             android:textSize="18sp"
                             android:textStyle="bold" />
 
@@ -314,6 +314,7 @@
                 android:weightSum="2">
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_law"
                     android:layout_width="0dp"
                     android:layout_margin="5dp"
                     android:layout_height="match_parent"
@@ -345,6 +346,7 @@
                 </androidx.cardview.widget.CardView>
 
                 <androidx.cardview.widget.CardView
+                    android:id="@+id/card_cs"
                     android:layout_margin="5dp"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -384,6 +386,7 @@
 
                 <androidx.cardview.widget.CardView
                     android:layout_width="0dp"
+                    android:id="@+id/card_english"
                     android:layout_margin="5dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
@@ -415,6 +418,7 @@
                 <androidx.cardview.widget.CardView
                     android:layout_margin="5dp"
                     android:layout_width="0dp"
+                    android:id="@+id/card_management"
                     android:layout_height="wrap_content"
                     android:layout_weight="1">
 

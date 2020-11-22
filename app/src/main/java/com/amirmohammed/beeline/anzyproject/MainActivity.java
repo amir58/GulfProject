@@ -23,36 +23,51 @@ public class MainActivity extends AppCompatActivity {
 
         binding.highDiploma.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://gulf.edu.sa/ar/diploma-programs/high-diploma/")));
+                        , "https://gulf.edu.sa/ar/diploma-programs/high-diploma/")));
 
         binding.midDiploma.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://gulf.edu.sa/ar/diploma-programs/academic-diploma/")));
+                        , "https://gulf.edu.sa/ar/diploma-programs/academic-diploma/")));
 
-        binding.email.setOnClickListener(v ->
+        binding.support.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"http://autodiscover.outlook.com/")));
+                        , "https://gulf.edu.sa/ar/support-system/")));
 
         binding.learningSystem.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://lms.gulf.edu.sa/")));
+                        , "https://lms.gulf.edu.sa/")));
 
-        binding.managementSystem.setOnClickListener(v ->
+        binding.academicGate.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://sis.gulf.edu.sa/er")));
+                        , "https://gulf.edu.sa/ar/academic-gate/")));
 
         binding.scientificSearch.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://gulf.edu.sa/ar/scientific-research-platform/")));
+                        , "https://gulf.edu.sa/ar/scientific-research-platform/")));
 
         binding.register.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://gulf.edu.sa/ar/admissions/")));
+                        , "https://gulf.edu.sa/ar/admissions/")));
 
         binding.about.setOnClickListener(v ->
                 startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
-                        ,"https://gulf.edu.sa/ar/about/")));
+                        , "https://gulf.edu.sa/ar/about/")));
 
+        binding.cardCs.setOnClickListener(v ->
+                startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
+                        , "https://gulf.edu.sa/ar/academic-departments/computer-science-information/")));
+
+        binding.cardEnglish.setOnClickListener(v ->
+                startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
+                        , "https://gulf.edu.sa/ar/academic-departments/english/")));
+
+        binding.cardLaw.setOnClickListener(v ->
+                startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
+                        , "https://gulf.edu.sa/ar/academic-departments/law/")));
+
+        binding.cardManagement.setOnClickListener(v ->
+                startActivity(new Intent(this, WebViewActivity.class).putExtra("url"
+                        , "https://gulf.edu.sa/ar/academic-departments/business-administration/")));
 
     }
 }
